@@ -28,7 +28,7 @@ Ref : https://spark.apache.org/docs/2.3.0/sql-programming-guide.html
 1. [Spark Pilot Notebook](./data/SparkPilotExample.ipynb)
 2. [Spark Crash Course Notebook](./data/spark-crash-course-python.ipynb)
 
-## Follow these instructions to Run Spark Cluster and SparkSQL Queries
+### Follow these instructions to run a Spark Cluster
 
 > $ docker-compose up -d
 
@@ -65,7 +65,7 @@ $ docker exec -it spark-master /bin/bash
 $SPARK_HOME/examples/jars/spark-examples_2.11-2.2.0.jar 10
 ```
 
-### Sample JuypterNotebook
+### Sample JupyterNotebook
 
 ```shell script
 (base) jovyan@pyspark-notebook:~$ nc -vuz spark-master 7077
@@ -128,8 +128,9 @@ df.show()
 
 ```
 
+### Step by Step guide to Connect Jupyter Notebook to SparkCluster
 
-1. Run SparkSQL on Spark CLuster -  ![List the NoteBooks](./images/image1.png)
+1. Run SparkSQL on Spark Cluster -  ![List the NoteBooks](./images/image1.png)
 2. Click on the Spark Pilot Notebook and Connect Jupyter Notebook to Spark Master -  ![Code SparkSubmit](./images/image2-1.png)
 3. Check the Spark Job running on Spark Cluster (Master) ![Spark Master UI](./images/image2-2.png)
 
