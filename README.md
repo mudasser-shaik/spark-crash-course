@@ -130,7 +130,7 @@ df.show()
 
 
 1. Run SparkSQL on Spark CLuster -  ![List the NoteBooks](./images/image1.png)
-2. Click on the Spark Pilot Notebook and Connect Jupyter Notebook to Spark Master -  ![Code SparkSubmit](./images/image2.png)
+2. Click on the Spark Pilot Notebook and Connect Jupyter Notebook to Spark Master -  ![Code SparkSubmit](./images/image2-1.png)
 3. Check the Spark Job running on Spark Cluster (Master) ![Spark Master UI](./images/image2-2.png)
 
 
